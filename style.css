@@ -1,107 +1,105 @@
-/* scrolly style stuff */
-
-#scrolly1, #scrolly2, #scrolly3 {
-    position: relative;
-    }
-    .article {
-    position: relative;
-    padding: 0;
-    margin: 0 auto;
-    padding-bottom: 0px;
-    z-index: 1;
-    opacity: 0.4;
-    }
-    .articleInner {
-    max-width: 60%;
-    margin: auto;
-    line-height: 1.3em;
-    }
-    .sticky-thing1, .sticky-thing2, .sticky-thing3 {
-    position: -webkit-sticky;
-    position: sticky;
-    left: 0;
-    max-width: 100%;
-    top: 5vh;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: 1;
-    }
+ #scrolly1, #scrolly2, #scrolly3 {
+position: relative;
+}
+.article {
+position: relative;
+padding: 0;
+margin: 0 auto;
+padding-bottom: 0px;
+z-index: 1;
+opacity: 0.4;
+}
+.articleInner {
+max-width: 60%;
+margin: auto;
+line-height: 1.3em;
+}
+.sticky-thing1, .sticky-thing2, .sticky-thing3 {
+position: -webkit-sticky;
+position: sticky;
+left: 0;
+max-width: 100%;
+top: 5vh;
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+z-index: 1;
+}
 
 .sticky-thing1, .sticky-thing2, .sticky-thing3 p {
-    font-size: 4rem;
-    font-weight: 500;
-    color: #fff;
-    }
-    .step {
-    margin: 0 auto 2rem auto;
-    margin-bottom: 35rem;
-    color: rgb(214, 209, 209);
-    height: 60vh;
-    opacity: 1;
-    position: relative;
-    z-index:200;
-    }
-    .step:last-child {
-    margin-bottom: 0;
-    opacity: 1;
-    }
-    .step p {
-    text-align: center;
-    color: black;
-    padding: 1rem;
-    font-size: 20px;
-    background-color: rgba(242, 242, 242, 1);
-    }
-    
-     @media (max-width: 500px) {
-        .sticky-thing1 {
-            background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/black-starting-map-01.png');
-    transition: 0.5s linear;
-        }
+font-size: 4rem;
+font-weight: 500;
+color: #fff;
+}
+.step {
+margin: 0 auto 2rem auto;
+margin-bottom: 35rem;
+color: rgb(214, 209, 209);
+height: 60vh;
+opacity: 1;
+position: relative;
+z-index:200;
+}
+.step:last-child {
+margin-bottom: 0;
+opacity: 1;
+}
+.step p {
+text-align: center;
+color: black;
+padding: 1rem;
+font-size: 20px;
+background-color: rgba(242, 242, 242, 1);
+}
 
-        .sticky-thing2 {
-            background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/latino-starting-map-01.png');
-    transition: 0.5s linear;
-        }
+@media (max-width: 500px) {
+.sticky-thing1 {
+    background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/black-starting-map-01.png');
+transition: 0.5s linear;
+}
 
-        .sticky-thing3 {
-            background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/grad-rates-blank-map-01.png');
-    transition: 0.5s linear;
-        }
-        
-        .articleInner {
-        max-width: 80%;
-        margin: auto;
-        line-height: 1.3em;
-        }
+.sticky-thing2 {
+    background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/latino-starting-map-01.png');
+transition: 0.5s linear;
+}
 
-        .step p {
-            font-size: 18px;
-        }
-    }
-    
-    @media (min-width: 501px) {
-        .sticky-thing1 {
-            background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/black-starting-map-01.png');
-    transition: 0.5s linear;
-        }
+.sticky-thing3 {
+    background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/grad-rates-blank-map-01.png');
+transition: 0.5s linear;
+}
 
-        .sticky-thing2 {
-            background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/latino-starting-map-01.png');
-    transition: 0.5s linear;
-        }
-        .sticky-thing3 {
-            background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/grad-rates-blank-map-01.png');
-    transition: 0.5s linear;
-        }
-    }
-    
-    .site-content {
-    overflow: visible !important;
-    }
-    .stop-flickering {-webkit-transform:translate3d(0,0,0);}
+.articleInner {
+max-width: 80%;
+margin: auto;
+line-height: 1.3em;
+}
+
+.step p {
+    font-size: 18px;
+}
+}
+
+@media (min-width: 501px) {
+.sticky-thing1 {
+    background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/black-starting-map-01.png');
+transition: 0.5s linear;
+}
+
+.sticky-thing2 {
+    background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/latino-starting-map-01.png');
+transition: 0.5s linear;
+}
+.sticky-thing3 {
+    background-image: url('https://hechingerreport.org/wp-content/uploads/2023/05/grad-rates-blank-map-01.png');
+transition: 0.5s linear;
+}
+}
+
+.site-content {
+overflow: visible !important;
+}
+.stop-flickering {-webkit-transform:translate3d(0,0,0);}
