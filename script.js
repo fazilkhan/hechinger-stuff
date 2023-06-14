@@ -1,26 +1,26 @@
 if (window.matchMedia("(max-width: 500px)").matches) {
-  document.getElementById("step0").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/black-starting-map-01.png)"
-  document.getElementById("step1").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/black-map-highlighted-01.png)"
-  document.getElementById("step2").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/black-chart-1-mobile-01.png)"
-  document.getElementById("step3").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/black-chart-mobile-2-01.png)"
-  document.getElementById("step4").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/black-chart-mobile-3-01.png)"
-  document.getElementById("step5").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/black-chart-mobile-3-01.png)"
-  document.getElementById("step6").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/latino-starting-map-01.png)"
-  document.getElementById("step7").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/latino-map-highlighted-01.png)"
-  document.getElementById("step8").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/latino-chart-mobile-1-01.png)"
-  document.getElementById("step9").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/latino-chart-mobile-2-01.png)"
-  document.getElementById("step10").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/latino-chart-mobile-3-01.png)"
-  document.getElementById("step11").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/latino-chart-mobile-3-01.png)"
-  document.getElementById("step12").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/grad-rates-blank-map-01.png)"
-  document.getElementById("step13").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/median-income-map-01.png)"
-  document.getElementById("step14").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/grad-rates-map-01.png)"
-  document.getElementById("step15").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/grad-rate-chart-mobile-01.png)"
-  document.getElementById("step16").dataset.img = "url(hhttps://hechingerreport.org/wp-content/uploads/2023/06/grad-rate-chart-mobile-01.png)"
-  
+document.getElementById("step0").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/black-starting-map-01.png)"
+document.getElementById("step1").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/black-map-highlighted-01.png)"
+document.getElementById("step2").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/black-chart-1-mobile-01.png)"
+document.getElementById("step3").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/black-chart-mobile-2-01.png)"
+document.getElementById("step4").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/black-chart-mobile-3-01.png)"
+document.getElementById("step5").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/black-chart-mobile-3-01.png)"
+document.getElementById("step6").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/latino-starting-map-01.png)"
+document.getElementById("step7").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/latino-map-highlighted-01.png)"
+document.getElementById("step8").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/latino-chart-mobileUPDATED-1-01.png)"
+document.getElementById("step9").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/latino-chart-mobileUPDATED-2-01.png)"
+document.getElementById("step10").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/latino-chart-mobileUPDATED-3-01.png)"
+document.getElementById("step11").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/latino-chart-mobileUPDATED-3-01.png)"
+document.getElementById("step12").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/grad-rates-blank-map-01.png)"
+document.getElementById("step13").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/median-income-map-01.png)"
+document.getElementById("step14").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/05/grad-rates-map-01.png)"
+document.getElementById("step15").dataset.img = "url(https://hechingerreport.org/wp-content/uploads/2023/06/grad-rate-chart-mobile-01.png)"
+document.getElementById("step16").dataset.img = "url(hhttps://hechingerreport.org/wp-content/uploads/2023/06/grad-rate-chart-mobile-01.png)"
+
 /* the viewport is less than or exactly 500 pixels wide */
 } else {
-  console.log("desktop")
- /*  
+console.log("desktop")
+/*  
 /* the viewport is more than 500 pixels wide */
 }
 
@@ -30,7 +30,7 @@ var scrolly1 = mainScrolly.querySelector("#scrolly1");
 var sticky1 = scrolly1.querySelector(".sticky-thing1");
 var article = scrolly1.querySelector("article");
 
-var scrolly2 = mainScrolly.querySelector("#scrolly");
+var scrolly2 = mainScrolly.querySelector("#scrolly2");
 var sticky2 = scrolly2.querySelector(".sticky-thing2");
 var article = scrolly2.querySelector("article");
 
