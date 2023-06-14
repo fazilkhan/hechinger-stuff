@@ -3,7 +3,7 @@
 #scrolly1, #scrolly2, #scrolly3 {
     position: relative;
     }
-    .article1, .article2, .article3 {
+    .article {
     position: relative;
     padding: 0;
     margin: 0 auto;
