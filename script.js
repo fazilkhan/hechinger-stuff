@@ -28,15 +28,15 @@ if (window.matchMedia("(max-width: 500px)").matches) {
 var mainScrolly = document.querySelector("#mainScrolly");
 var scrolly1 = mainScrolly.querySelector("#scrolly1");
 var sticky1 = scrolly1.querySelector(".sticky-thing1");
-var article1 = scrolly1.querySelector("article1");
+var article = scrolly1.querySelector("article");
 
-var scrolly2 = mainScrolly.querySelector("#scrolly2");
+var scrolly2 = mainScrolly.querySelector("#scrolly");
 var sticky2 = scrolly2.querySelector(".sticky-thing2");
-var article2 = scrolly2.querySelector("article2");
+var article = scrolly2.querySelector("article");
 
 var scrolly3 = mainScrolly.querySelector("#scrolly3");
 var sticky3 = scrolly3.querySelector(".sticky-thing3");
-var article3 = scrolly3.querySelector("article3");
+var article = scrolly3.querySelector("article");
 
 
 // initialize the scrollama
@@ -66,7 +66,7 @@ sticky3.style.backgroundImage = el.dataset.img;
 function init() {
 scroller1
 .setup({
-step: "#scrolly1 article1 .step",
+step: "#scrolly1 article .step",
 offset: 0.99,
 debug: false
 })
@@ -74,7 +74,7 @@ debug: false
 
 scroller2
 .setup({
-step: "#scrolly2 article2 .step",
+step: "#scrolly2 article .step",
 offset: 0.99,
 debug: false
 })
@@ -82,7 +82,7 @@ debug: false
 
 scroller3
 .setup({
-step: "#scrolly3 article3 .step",
+step: "#scrolly3 article .step",
 offset: 0.99,
 debug: false
 })
