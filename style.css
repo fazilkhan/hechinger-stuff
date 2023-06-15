@@ -27,7 +27,7 @@ justify-content: center;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center center;
-z-index: 1;
+z-index: 0;
 }
 
 .sticky-thing1, .sticky-thing2, .sticky-thing3 p {
