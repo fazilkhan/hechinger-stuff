@@ -28,6 +28,7 @@ background-size: contain;
 background-repeat: no-repeat;
 background-position: center center;
 z-index: 0;
+opacity: 0.99;
 }
 
 .sticky-thing1, .sticky-thing2, .sticky-thing3 p {
@@ -42,7 +43,7 @@ color: rgb(214, 209, 209);
 height: 60vh;
 opacity: 1;
 position: relative;
-z-index:200;
+z-index: 200;
 }
 .step:last-child {
 margin-bottom: 0;
